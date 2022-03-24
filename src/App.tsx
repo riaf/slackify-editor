@@ -31,7 +31,8 @@ function App() {
             }
             padding={10}
             style={{
-              fontFamily: '"Fira code", "Fira Mono", monospace',
+              fontFamily:
+                'source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace',
               fontSize: 12,
             }}
           />

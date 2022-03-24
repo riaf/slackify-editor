@@ -8,7 +8,9 @@ import "prismjs/components/prism-markdown";
 import "prismjs/themes/prism.css";
 
 function App() {
-  const [code, setCode] = useState(localStorage.getItem("code") || "");
+  const [code, setCode] = useState(
+    localStorage.getItem("code") || `# Hello World`
+  );
   const markdownText = slackifyMarkdown(code);
 
   return (

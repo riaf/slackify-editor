@@ -33,7 +33,7 @@
     "lint-staged": "^12.3.7",
     "prettier": "^2.6.0",
     "typescript": "^4.5.4",
-    "vite": "^2.8.0"
+    "vite": "^2.9.13"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
